@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+      <link rel="stylesheet" href="kalyani.css"/>
+    <title> kalyani.io </title>
+</head>
+<!-- background animated image -->
+<body>
+    <div class="background">
+    <div class="water"></div>
+</div>
+<svg>
+  <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+    <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feTurbulence>
+      <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
+      <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/></animate>
+    </filter>
+  </svg>
+</div>
+<!-- kalyani title -->
+<h1><span style="--index: 0; --alpha-l: 0.5; --alpha-u: 1;">k</span>
+  <span style="--index: 1; --alpha-l: 0.5; --alpha-u: 1;">a</span>
+    <span style="--index: 2; --alpha-l: 0.5; --alpha-u: 1;">l</span>
+        <span style="--index: 3; --alpha-l: 0.5; --alpha-u: 1;">y</span>
+      <span style="--index: 4; --alpha-l: 0.5; --alpha-u: 1;">a</span>
+    <span style="--index: 5; --alpha-l: 0.5; --alpha-u: 1;">n</span>
+  <span style="--index: 5; --alpha-l: 0.5; --alpha-u: 1;">i</span>
+</h1>
+<h1><span style="--index: 0; --alpha-l: 0.5; --alpha-u: 1;">k</span>
+  <span style="--index: 1; --alpha-l: 0.5; --alpha-u: 1;">a</span>
+    <span style="--index: 2; --alpha-l: 0.5; --alpha-u: 1;">l</span>
+      <span style="--index: 3; --alpha-l: 0.5; --alpha-u: 1;">y</span>
+        <span style="--index: 4; --alpha-l: 0.5; --alpha-u: 1;">a</span>
+    <span style="--index: 5; --alpha-l: 0.5; --alpha-u: 1;">n</span>
+  <span style="--index: 5; --alpha-l: 0.5; --alpha-u: 1;">i</span>
+</h1>
+  <h1><span style="--index: 0; --alpha-l: 0.5; --alpha-u: 1;">k</span>
+      <span style="--index: 1; --alpha-l: 0.5; --alpha-u: 1;">a</span>
+        <span style="--index: 2; --alpha-l: 0.5; --alpha-u: 1;">l</span>
+          <span style="--index: 3; --alpha-l: 0.5; --alpha-u: 1;">y</span>
+      <span style="--index: 4; --alpha-l: 0.5; --alpha-u: 1;">a</span>
+    <span style="--index: 5; --alpha-l: 0.5; --alpha-u: 1;">n</span>
+  <span style="--index: 5; --alpha-l: 0.5; --alpha-u: 1;">i</span>
+</h1>
+<div class="wrapper">
+    <div class="typing-demo">
+      enter the password
+  </div>
+</div>
+</body>
+</html>
